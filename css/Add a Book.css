@@ -1,0 +1,94 @@
+.navbar-brand
+{
+font-size: 23px;
+font-weight: bold;
+font-style: italic;
+font-family: cursive
+}li{
+font-size: 16px;
+margin-left: 8px;
+font-style: italic;
+font-family: cursive
+}
+.navbar {
+background-color: #333333;
+height: 50px;
+text-align: center;
+top:0px;
+}
+.dark
+{
+background-color: #333333;
+}
+
+.container-fluid{
+           
+           background-color:rgba(245, 245, 245, 0.18);
+}
+.child1{
+      
+      background-color:rgba(178, 35, 35, 0.54);
+      border-radius:40px;
+      height:70px;
+      font-size:35px;
+      font-weight:900;
+      direction: rtl;
+      padding:10px; 
+     
+}
+.input{
+    
+       background-color:antiquewhite;
+       padding:10px 3px;
+       float:right;
+       font-size:20px;
+       font-weight:700;
+       direction:ltr;
+       border-radius:15px;
+       border-bottom-style: solid;
+       border-color:dimgray;
+       text-align: center;
+       display:flex;
+       justify-content: center;
+       
+}
+.input1,select{
+       
+       height:55px;
+       background-color:rgba(167, 211, 229, 0.17);
+       border-radius:10px;
+       border-style:solid;
+       border-color:rgba(128, 128, 128, 0.69);
+       float: right;
+       font-size:20px;
+       font-weight:900;
+       direction:rtl;
+       
+        
+}
+textarea,.txt{
+         direction:rtl;
+         font-size:20px;
+         font-weight:700;
+          
+}
+.file{
+    
+    direction:rtl;
+    height:40px;
+    font-size:20px;
+    font-weight:600;
+    float:right;
+    margin-top: 10px;
+    margin-right:5px
+    
+}
+.input1:focus{
+    border-radius:10px;
+    border:0;
+    
+}
+.row{
+    display:flex;
+   align-items: center;
+}

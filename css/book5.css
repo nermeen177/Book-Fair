@@ -1,0 +1,112 @@
+body
+{
+  margin: 0;
+  padding:0;
+
+}
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+.dark 
+{
+    background-color: #333333;
+   
+}
+li 
+{
+    font-size: 16px;
+    margin-left: 8px;
+    font-style: italic;
+    font-family: cursive
+}
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    text-align: center;
+    top:0px;
+    z-index: 3
+}
+.menu
+{
+  border: solid white 2px;
+  border-radius: 6px
+}
+.h,.s {
+  padding: 15px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+  margin-left:250px;
+  margin-right:250px;
+  background-color: #dcdcdc;
+}
+@media screen and (max-width:1250px)
+{
+ .h,.s 
+{
+  margin-left:120px;
+  margin-right:120px;
+}
+}
+.h
+{
+  font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    height: 70px;
+    cursor:pointer;
+    box-shadow: 0px 8px 5px grey;
+}
+
+.s 
+{
+  padding: 30px;
+  display: none;
+}
+.butt
+{
+  color: black;
+  opacity:1
+}
+img
+{
+  width: 200px;
+  height: 200px;
+  position: relative;
+  bottom:30px;
+   box-shadow:5px 5px 10px;
+   margin-left: 40px
+}
+img:hover
+{
+     width: 215px; 
+     height: 220px;
+     transition: all 0.4s ease-in-out;
+}
+.txt
+{
+   direction:rtl;
+}
+span
+{
+    font-size: 19px;
+    font-style: italic;
+    font-family: cursive;
+}
+table tr td
+{
+    padding-top: 12px;
+}
+table tr td:first-child
+ {
+    min-width: 90px;
+  }
+.bb
+{
+  padding:5px;
+  margin: 3px
+}

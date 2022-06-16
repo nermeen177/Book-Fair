@@ -1,0 +1,75 @@
+
+/*Start Nav*/
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 16px;
+    margin-left: 8px;
+    font-style: italic;
+    font-family: cursive
+}
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    text-align: center;
+}
+
+.nav-link:hover
+{
+    background-color:#127687;
+    border-radius: 5px;
+}
+
+/*End Nav*/
+/*Start login form*/
+.container.one{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center{
+    margin-top: 50px;
+	width: 90%;
+    display: flex;
+    justify-content: space-around;
+	padding: 50px;
+	border-radius: 3px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	background-color: white;
+	box-shadow: 8px 8px 13px #3f3f3f;
+}
+.img{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;: 
+}
+.img img{
+	width: 250px;
+}
+.log-in-con{
+	color: #333;
+    display: grid;
+    align-items: center;
+    width: 50%
+}
+.log-in-con h2{
+	font-size: 2.9rem;
+	text-transform: uppercase;
+}
+.row{
+	margin-top: 30px;
+}
+.btn{
+	display: block;
+	margin: 5px 0 0 10px;
+	width: 100px;
+}
+
+/*End login form

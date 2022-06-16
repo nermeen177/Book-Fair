@@ -1,0 +1,183 @@
+/*Start Nav*/
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 16px;
+    margin-left: 8px;
+    font-style: italic;
+    font-family: cursive
+}
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    text-align: center;
+}
+
+.nav-link:hover
+{
+    background-color:#127687;
+    border-radius: 5px;
+}
+.active{
+    background-color: #28a745;
+    border-radius: 5px;
+}
+/*End Nav*/
+
+/*Start containeres*/
+.container.one{
+    height: 734px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    padding: 30px;
+    border-radius: 3px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    box-shadow: 8px 8px 13px #3f3f3f;
+}
+.row{
+    margin-top: 30px 
+}
+/*End containeres*/
+/*sign in*/
+.other{
+    text-align: center;
+}
+.other ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+.other ul li{
+    display: inline;
+    margin: 10px 20px;
+}
+.other ul li div{
+    padding: 40px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline;
+    color: #1F1142;
+    border-radius: 3px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.other ul li div:hover{
+    background: #00C3DA;
+    color: #ffffff;
+    box-shadow: 8px 8px 13px #3f3f3f;
+}
+.other ul li i{
+    font-size: 40px;
+    margin-top: 10px: 
+}
+/*payment*/
+.row.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.h4 h4{
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #c6c6c6;
+    text-transform: uppercase;
+}
+.row.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px
+}
+.row.butn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+}
+/* log in*/
+.img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;: 
+}
+.img img{
+    width: 150px;
+}
+.log-in-con{
+    color: #333;
+}
+.log-in-con h2{
+    font-size: 2.9rem;
+    text-transform: uppercase;
+}
+.row{
+    margin-top: 30px;
+}
+.btn{
+    display: block;
+    margin: 5px 0 0 10px;
+    width: 100px;
+}
+/*ticket*/
+.row.info{
+    margin-top: 25px;
+}
+.row.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.h4 h3{
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #c6c6c6;
+    text-transform: uppercase;
+}
+.col h6{
+    padding-top: 6px;
+    margin-left: 10px;
+}
+.row.tic{
+    border: 10px double black;
+    padding: 10px;
+}
+/*contact us*/
+.row.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.h4 h3{
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #c6c6c6;
+    text-transform: uppercase;
+}
+.row.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 100px;
+    margin-left: 20px;
+}

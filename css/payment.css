@@ -1,0 +1,96 @@
+/*Start Nav*/
+.navbar-brand
+{
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive
+}
+li 
+{
+    font-size: 16px;
+    margin-left: 8px;
+    font-style: italic;
+    font-family: cursive
+}
+.navbar {
+    background-color: #333333;
+    height: 50px;
+    text-align: center;
+}
+
+.nav-link:hover
+{
+    background-color:#127687;
+    border-radius: 5px;
+}
+
+
+/*End Nav*/
+.container.one{
+    height: 734px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    
+}
+.center{
+    width: 60%;
+    box-sizing: content-box;
+    padding: 50px;
+    border-radius: 3px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.76);
+    box-shadow: 8px 8px 13px #3f3f3f;
+   display: none;
+  
+}
+.row.h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row.h4 h4{
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 3px 3px 5px #c6c6c6;
+    text-transform: uppercase;
+}
+.row.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px
+}
+.row.butn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    
+}
+h5,.int{
+   
+    text-align:right;
+}
+.li1,.li2{
+    		width: 150px;
+    		background-color: #f6f6f6;
+    		margin: 0;
+    		text-align: center;
+    		font-size: 40px;
+    		padding: 0;
+    		color: #1F1142;
+    		transition: all 0.4s ease-in-out 0s;
+		}
+.li1,.li2{
+    background: "#00C3DA";
+        color: "#ffffff";
+        box-Shadow: "8px 8px 13px #3f3f3f";
+}		

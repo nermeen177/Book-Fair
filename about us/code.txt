@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>about project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+   
+<script> 
+$(document).ready(function(){
+  $("#one").click(function(){
+    $("#two").slideToggle("slow");
+  });
+});
+</script>
+    
+    <style>
+        
+#two, #one {
+  padding: 5px;
+  text-align: center;
+  border: solid 1px #c3c3c3;
+}
+
+#two {
+  padding: 50px;
+  display: none;
+}
+        
+  .carousel-inner img 
+  {
+    width: 1600px;
+    height: 500px;
+  }
+  </style> 
+    
+    
+</head>
+<body>
+ 
+    
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="cairo.jpg" width="500" height="200">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="paint.jpg" width="500" height="200">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="my%20cairo.jpeg" width="500" height="200">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+    
+    
+    
+<div class="container" style="position: relative;right: -100px"> <br><br>
+  <div class="card" style="width:900px;height: 600px">
+    <img class="card-img-top" src="police.jpg" alt="Card image" style="width:100%; height: 80%">
+    <div class="card-body">
+      <h3 class="card-title" style="text-align: right">خدمات أمنية</h3>
+      <p class="card-text" style="text-align: right;font-size: 20px">توافر أفراد الأمن في جميع أنحاء المعرض من الخارج كما توافر المتطوعيين داخل المعرض كاملا</p>
+    </div>
+  </div>
+  <br>
+  
+  
+  <br><br>
+  <div class="card" style="width:900px;height: 600px">
+    <img class="card-img-top" src="wewawewa.jpg" alt="Card image" style="width:100%; height: 80%">
+    <div class="card-body">
+      <h3 class="card-title" style="text-align: right">خدمات طبية</h3>
+      <p class="card-text" style="text-align: right;font-size: 20px">توافر سيارات الاسعاف في جميع أنحاء المعرض حفاظا علي صحة الجميع</p>
+    </div>
+  </div>
+  <br>
+    
+    
+<br><br>
+  <div class="card" style="width:900px;height: 600px">
+    <img class="card-img-top" src="bank.jpg" alt="Card image" style="width:100%; height: 80%">
+    <div class="card-body">
+      <h3 class="card-title" style="text-align: right">خدمات بنكية</h3>
+      <p class="card-text" style="text-align: right;font-size: 20px">توافر لعربات السحب النقدي تسهيلا بالزائرين</p>
+    </div>
+  </div>
+  <br>
+    
+    
+    <br><br>
+  <div class="card" style="width:900px;height: 600px">
+    <img class="card-img-top" src="special.jpg" alt="Card image" style="width:100%; height: 80%">
+    <div class="card-body">
+      <h3 class="card-title" style="text-align: right">خدمات لذو الاحتياجات الخاصة</h3>
+      <p class="card-text" style="text-align: right;font-size: 20px">لم تغفل هيئة معرض الكتاب عن حقوق ذوي الاحتياجات الخاصة أثناء تنظيمها لمعرض القاهرة الدولي</p>
+    </div>
+  </div>
+  <br><br>
+    
+</div>
+
+<div style="background-color: #EEE;text-align: center"><br><br>
+   <video width="400" controls>
+     <source src="Video.mp4" type="video/mp4">
+     <source src="Video.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+   </video><br><br>
+</div>
+    
+    
+<div style="background-color: darkgray"><br><br>
+<div class="container">
+  <h3 id="one">Click here to know Information about the Services</h2>           
+  <table id="two" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>The name of the service</th>
+        <th>Number Phone</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Police</td>
+        <td>122</td>
+        <td>police@example.com</td>
+      </tr>
+      <tr>
+        <td>Ambulance</td>
+        <td>123</td>
+        <td>Ambulance@example.com</td>
+      </tr>
+      <tr>
+        <td>Firefighters</td>
+        <td>180</td>
+        <td>Fire@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div><br><br>
+</div>
+    
+    
+</body>
+</html>

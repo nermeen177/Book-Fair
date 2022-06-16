@@ -1,0 +1,38 @@
+.contanier{
+    margin-top: 40px;
+    margin:10px;
+    background-color: rgba(128, 128, 128, 0.28);
+    padding:10px
+}
+.card{
+    
+   padding:10px;
+   margin: 20px;
+   justify-content:  center;
+}
+
+.cont{
+     display: flex;
+    justify-content: center;
+    border-radius:20px;
+    width:45%;
+    background-color: rgb(198, 180, 157);
+    box-shadow:10px 10px 30px gray;
+    margin: auto
+   
+}
+.details{
+    direction: rtl;
+    display: none;
+    text-align:right;
+    padding:10px;
+    margin:10px
+    
+}
+.ul .li{
+    direction: rtl;
+}
+img{
+    width: 500px;
+    height: 300px;
+}

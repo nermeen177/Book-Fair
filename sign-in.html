@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>معرض الكتاب</title>
+	<meta charset="utf-8">
+             <link rel="stylesheet" type="text/css" href="css/nav.css">
+
+        <link rel="stylesheet" type="text/css" href="css/sign-in.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+       
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.in{
+			border: 5px;
+			border-bottom: 3px solid #e6e6e6;
+			outline: none;
+			
+		}
+		.in:focus{
+              color: #495057;
+              background-color: #fafafa;
+              border-color: green;
+              outline: 0;
+    		    box-shadow: 0 0 0 0rem ;
+		}
+		.a-i:hover{
+              text-decoration: none	
+		}
+         .active
+         {
+             background-color: #87AFC7; 
+             border-radius:5px;
+             display: inline;
+  
+         }
+	</style>
+</head>
+<body style="background-color: rgba(190, 190, 190, 0.46)">
+	<!--start nav-->
+	            <nav class="navbar navbar-expand-md navbar-dark">
+                   <div class="container-fluid dark">
+                       <span class="navbar-brand logo" href="#">معرض الكتاب الدولي</span>
+                       <div id="myDropdown" class="dropdown-content g">
+                                
+                                <input type="text" placeholder="..إبحث" id="myInput" onkeyup="filterFunction()">
+                                  <div style="display:none"class="pass">
+                                <a href="book.html">سياسات واستراتيجيات </a>
+                                <a href="book2.html">تاريخ</a>
+                                <a href="book3.html">التفكير والعقل </a>
+                                <a href="book4.html">روايات </a>
+                                <a href="book5.html">اجتماعيات </a>
+                                <a href="book6.html">قصص حقيقية </a>
+                                <a href="book7.html">أدب ولغة </a>
+                                <a href="book8.html">فتاوى واسلاميات </a>
+                                <a href="book9.html">تقني </a>
+                                <a href="book10.html">طرائف وعجائب </a>
+                                <a href="book11.html">تعليم وأطفال </a>
+                                <a href="book12.html">مجموعة قصصية </a>
+                                <a href="book13.html">رياضة </a>
+                                  </div></div>
+
+                       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                           <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbar">
+                           <ul class="navbar-nav ml-auto">                           	 
+                              <li class="nav-item"><a class="nav-link text-white" href="home.html">الرئيسية</a></li>&nbsp;
+                              <i class="fa fa-home" style="font-size:30px;color: #A0CFEC;margin-top: 3px"></i>
+                              &nbsp;                           
+                                
+                                                                                   
+                               <li class="nav-item" style="margin-top: 10px"><a class="nav-link text-white active" href="sign-in.html">تسجيل الدخول </a></li>&nbsp;
+                               <i class="fa fa-sign-in" style="font-size:30px;color:#A0CFEC;margin-top: 3px"></i>  
+                               &nbsp;                         
+                              
+                               <li class="nav-item dropdown menu"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu" data-toggle = "dropdown">القائمة </a>
+
+                              <div class="dropdown-menu" aria-labelled-by = "dropdown-menu">
+                              <a href="فهرس.html" class="dropdown-item">الفهرس</a>
+                              <a href="Add a Book.html" class="dropdown-item">إضافة كتاب </a>
+
+                                   <a href="contact-us1.html" class="dropdown-item">اتصل بنا</a>
+                                  <a href="about-us.html" class="dropdown-item">معلومات عنا</a>
+                              <a href="hall.html" class="dropdown-item">صالة 1</a>
+                              <a href="hall2.html" class="dropdown-item">صالة 2</a>
+                              <a href="hall3.html" class="dropdown-item"> صالة 3</a>
+                              <a href="hall4.html" class="dropdown-item"> صالة 4</a>
+                              <a href="sign-in.html" class="dropdown-item">التذكرة</a>
+                              <a href="%D8%A7%D8%B4%D9%87%D8%B1%20%D8%A7%D9%84%D9%85%D8%A4%D9%84%D9%81%D9%8A%D9%86.html" class="dropdown-item"> اشهر المؤلفين</a>
+                              <a href="mostsearch.html" class="dropdown-item"> الأكثر بحثا</a>
+                                  <a href="contact-us.html" class="dropdown-item"> التقييم</a>
+                             </div>
+                             </li>
+  
+                           </ul>
+                       </div>
+                   </div>
+               </nav>
+              
+               <!--end nav-->
+	<!-- start signin form -->
+	<div class="container one">
+		<div class="center" style="direction: rtl;">
+			<h2 >تسجيل الدخول</h2>
+              <!-- start sign in form-->
+			<form method="get" id="form1" action="payment.html"> 
+				<div class="row">
+					<div class="col">
+						<input type="text" class="form-control form-control-lg in" placeholder="الاسم الاول" value="" id="fristName" >
+					</div>
+					<div class="col">
+						<input type="text" class="form-control form-control-lg in" placeholder="الاسم الاخير" id="lastName">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="email" class="form-control form-control-lg in" placeholder="البريد الإلكترونى" id="email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="text" class="form-control form-control-lg in" placeholder="رقم الهاتف" id="phoneNumber">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="password" class="form-control form-control-lg in" placeholder="كلمه السر" id="password">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<input type="password" class="form-control form-control-lg in" placeholder="تأكيد كلمه السر" id="confirmpassword">
+					</div>
+				</div>
+
+				<div class="form-group form-check check" style="direction: rtl;">
+					<div class="row">
+						<div class="col" >
+						<label class="form-check-label" style="direction: rtl ;float: right">
+							<input type="checkbox" class="form-check-input" style="">انا أوافق على <a href="#" style="text-decoration: underline;">سياسات المستخدم</a>
+						</label>
+						</div>
+						<div class="col">
+							<a href="log-in.html" style=" margin-right: 30px;font-size: 12px;text-decoration: underline;">امتلك حساب</a>
+						</div>
+					</div>
+				</div>
+                   <center><input type="submit" style="margin:10px; width: 150px;"class="btn btn-success submit" value="تسجيل الدخول" id="submit1"></center>
+			</form>
+			<hr style="display: ;">
+			<div class="other" style="display:;">
+				<span>او</span>
+				<br>
+				<span style="font-weight: bold;">تسجيل الدخول</span>
+				<ul>
+					<li>
+						<a href="payment.html" class="a-i">
+							<div>
+								<i class="icofont-facebook"></i>
+							</div>
+						</a>						
+					</li>
+					<li>
+						<a href="payment.html" class="a-i">
+							<div>
+								<i class="icofont-twitter"></i>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="payment.html" class="a-i">
+							<div>
+								<i class="icofont-linkedin"></i>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.main.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<!-- end signin form -->
+	<script type="text/javascript" src="js/all.js"></script>
+    <script src="js/add.js"></script> 
+	
+</body>
+</html>

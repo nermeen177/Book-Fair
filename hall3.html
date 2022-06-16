@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>معرض الكتاب</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/hall.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+         a{
+             color: black;
+         }
+	</style>
+</head>
+<body style="background-color: rgb(230, 230, 230);">
+	<!--start nav-->
+	            <nav class="navbar navbar-expand-md navbar-dark">
+                   <div class="container-fluid dark">
+                       <span class="navbar-brand logo" href="#">معرض الكتاب الدولي</span>
+                       <div id="myDropdown" class="dropdown-content g">
+                                
+                                <input type="text" placeholder="..إبحث" id="myInput" onkeyup="filterFunction()">
+                                  <div style="display:none"class="pass">
+                                <a href="book.html">سياسات واستراتيجيات </a>
+                                <a href="book2.html">تاريخ</a>
+                                <a href="book3.html">التفكير والعقل </a>
+                                <a href="book4.html">روايات </a>
+                                <a href="book5.html">اجتماعيات </a>
+                                <a href="book6.html">قصص حقيقية </a>
+                                <a href="book7.html">أدب ولغة </a>
+                                <a href="book8.html">فتاوى واسلاميات </a>
+                                <a href="book9.html">تقني </a>
+                                <a href="book10.html">طرائف وعجائب </a>
+                                <a href="book11.html">تعليم وأطفال </a>
+                                <a href="book12.html">مجموعة قصصية </a>
+                                <a href="book13.html">رياضة </a>
+                                  </div></div>
+
+                       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                           <span class="navbar-toggler-icon"></span>
+                       </button>
+                       <div class="collapse navbar-collapse" id="navbar">
+                           <ul class="navbar-nav ml-auto">                           	 
+                              <li class="nav-item"><a class="nav-link text-white active" href="home.html">الرئيسية</a></li>&nbsp;
+                              <i class="fa fa-home" style="font-size:30px;color: #A0CFEC;margin-top: 3px"></i>
+                              &nbsp;                           
+                                
+                                                                                   
+                               <li class="nav-item"><a class="nav-link text-white" href="sign-in.html">تسجيل الدخول </a></li>&nbsp;
+                               <i class="fa fa-sign-in" style="font-size:30px;color:#A0CFEC;margin-top: 3px"></i>  
+                               &nbsp;                         
+                              
+                               <li class="nav-item dropdown menu"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu" data-toggle = "dropdown">القائمة </a>
+
+                              <div class="dropdown-menu" aria-labelled-by = "dropdown-menu">
+                              <a href="فهرس.html" class="dropdown-item">الفهرس</a>
+                              <a href="Add a Book.html" class="dropdown-item">إضافة كتاب </a>
+
+                                   <a href="contact-us1.html" class="dropdown-item">اتصل بنا</a>
+                                  <a href="about-us.html" class="dropdown-item">معلومات عنا</a>
+                              <a href="hall.html" class="dropdown-item">صالة 1</a>
+                              <a href="hall2.html" class="dropdown-item">صالة 2</a>
+                              <a href="hall3.html" class="dropdown-item"> صالة 3</a>
+                              <a href="hall4.html" class="dropdown-item"> صالة 4</a>
+                              <a href="sign-in.html" class="dropdown-item">التذكرة</a>
+                              <a href="%D8%A7%D8%B4%D9%87%D8%B1%20%D8%A7%D9%84%D9%85%D8%A4%D9%84%D9%81%D9%8A%D9%86.html" class="dropdown-item"> اشهر المؤلفين</a>
+                              <a href="mostsearch.html" class="dropdown-item"> الأكثر بحثا</a>
+                                  <a href="contact-us.html" class="dropdown-item"> التقييم</a>
+                             </div>
+                             </li>
+  
+                           </ul>
+                       </div>
+                   </div>
+               </nav>
+              
+               <!--end nav-->
+   <!-- start categoryes-->
+	<div class="container-fluid one" style="padding: 0 30px">
+		<div class="center">
+              <!-- start category 1-->
+			<a href="tech.html"><div class="row" style="background-image: url(img/t.jpg);background-size: 100% 100%;" id="hoverback1">
+				<div class="shadow" id="back1"></div>
+                   <center style="z-index: 1;position: absolute;font-size: 60px;"><P id="p1">تقنى</P></center>
+			</div></a>
+              <!-- start category 2-->
+			<a href="child.html"><div class="row" style="background-image: url(img/b.jpg);background-size: 100% 100%;" id="hoverback2">
+				<div class="shadow" id="back2"></div>
+                   <center style="z-index: 1;position: absolute;font-size: 40px;"><P id="p2">تعليم واطفال</P></center>
+                   </div></a>
+              <!-- start category 3-->
+			<a href="wonders.html"><div class="row" style="background-image: url(img/w.jpg);background-size: 100% 100%;" id="hoverback3">
+				<div class="shadow" id="back3"></div>
+                   <center style="z-index: 1;position: absolute;font-size: 50px;"><P id="p3">طرائف وعجائب</P></center>
+                   </div></a>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.main.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/hall.js"></script>
+    <script src="js/add.js"></script> 
+</body>
+</html>

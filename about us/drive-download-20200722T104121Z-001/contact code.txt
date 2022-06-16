@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact US</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#one").click(function(){
+    $("#one1").slideToggle("slow");
+  });
+});
+</script>
+    
+<script> 
+$(document).ready(function(){
+  $("#two").click(function(){
+    $("#two2").slideToggle("slow");
+  });
+});
+</script>
+    
+<script> 
+$(document).ready(function(){
+  $("#three").click(function(){
+    $("#three3").slideToggle("slow");
+  });
+});
+</script>
+    
+<style>
+        body
+        {
+            background-image: url(image1.jpg);   
+        }
+        
+        #one1, #one {
+           padding: 5px;
+           text-align: center;
+           border: solid 1px #c3c3c3;
+           border-radius: 20px;
+                    }
+
+        #one1 {
+           padding: 20px;
+           display: none;
+              }
+    
+       #two2, #two {
+           padding: 5px;
+           text-align: center;
+           border: solid 1px #c3c3c3;
+           border-radius: 20px;
+                    }
+
+        #two2 {
+           padding: 20px;
+           display: none;
+              }
+    
+        #three3, #three {
+           padding: 5px;
+           text-align: center;
+           border: solid 1px #c3c3c3;
+           border-radius: 20px;
+                    }
+
+        #three3 {
+           padding: 20px;
+           display: none;
+              }
+</style>
+    
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            
+</head>
+<body> 
+
+    
+    <br><br>
+    <div class="container" style="width: 700px;background-color: #fdf6f6;padding: 20px ;border-radius: 0px 40px;box-shadow: 10px 10px 30px;text-align: center;">
+        <legend style="padding: 10px;margin: 10px;border-radius: 0px 40px" > <h1>التواصل معنا </h1> </legend>
+    
+          <input type="text" placeholder="اللقب" style="width: 300px;border-radius: 10px;padding: 5px;direction: rtl">
+          <input type="text" placeholder="الاسم" style="width: 300px;border-radius: 10px;padding: 5px;direction: rtl"><br><br>
+          <input type="text" placeholder="العنوان"  style="width: 600px;border-radius: 10px;padding: 5px;direction: rtl">
+          <br><br>
+          <input type="text" id="Email" placeholder="البريد الالكتروني" style="width: 600px;border-radius: 10px;padding: 5px;direction: rtl">
+          <br><br>
+          <input type="text" placeholder="رقم الهاتف" style="width: 600px;border-radius: 10px;padding: 5px;direction: rtl">
+          <br><br>
+          <textarea rows="5" id="comment" name="text" placeholder="تعليق آخر" style="width: 600px;border-radius: 10px;direction: rtl"></textarea><br><br>
+          <button type="submit" class="btn btn-primary">ارسال</button>
+        <br><br>
+        
+        <i class="material-icons" id="one" style="font-size:36px;color:teal;text-shadow:2px 2px 4px #000000;">phone</i>
+        <h3 id="one1">01234567890</h3>
+        
+        <i class="material-icons" id="two" style="font-size:36px;color:teal;text-shadow:2px 2px 4px #000000;">mail</i>
+        <h3 id="two2">book2019@example.com</h3>
+        
+        <i class="material-icons" id="three" style="font-size:36px;color:teal;text-shadow:2px 2px 4px #000000;">map</i>
+        <!-- <h3 id="three3">التجمع الخامس، الحي العاشر، مدينة نصر</h3> -->
+        <iframe id="three3" src="https://www.google.com/maps/@29.0072053,29.6278488,8z" title="W3Schools Free Online Web Tutorials">
+</iframe>
+    </div><br><br>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+.container{
+
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    margin: 0px auto 40px auto;
+    display: flex;
+
+    
+    
+}
+h4{
+    text-align: center;
+}
+.div1{
+    background-color: azure;
+    border-radius: 30px 0px;
+    margin:  20px;
+    padding: 20px;
+    box-shadow:10px 10px 30px gray;
+    display: flex;
+   align-items:  center;
+    width: 60%;
+}
+
+.card{
+    background-color:rgba(255, 255, 255, 0.35);
+            }
+#two1{
+    margin-left: 150px
+}
+#fa1{
+    margin-left: 550px
+}
